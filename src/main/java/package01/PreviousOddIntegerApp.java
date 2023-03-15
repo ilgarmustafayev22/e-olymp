@@ -8,9 +8,9 @@ public class PreviousOddIntegerApp {
         int num = scan.nextInt();
 
         if (num % 2 == 0) {
-            System.out.println(num - 1);
+            System.out.println(num + 2);
         } else {
-            System.out.println(num - 2);
+            System.out.println(num + 1);
 
         }
     }
